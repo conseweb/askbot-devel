@@ -435,154 +435,154 @@ msgstr "问题"
 #: urls.py:78 urls.py:404 urls.py:410 urls.py:419 urls.py:428
 msgctxt "urls"
 msgid "tags/"
-msgstr "标签/"
+msgstr "tags/"
 
 #: urls.py:83 urls.py:89 urls.py:98 urls.py:119 urls.py:128 urls.py:136
 #: urls.py:143
 msgctxt "urls"
 msgid "users/"
-msgstr "用户/"
+msgstr "users/"
 
 #: urls.py:90
 msgctxt "urls"
 msgid "by-group/"
-msgstr "按组/"
+msgstr "by-group/"
 
 #: urls.py:98 urls.py:204 urls.py:311 urls.py:430 urls.py:655
 msgctxt "urls"
 msgid "edit/"
-msgstr "编辑/"
+msgstr "edit/"
 
 #: urls.py:120 urls.py:404 urls.py:411 urls.py:420 urls.py:429
 msgctxt "urls"
 msgid "subscriptions/"
-msgstr "订阅/"
+msgstr "subscriptions/"
 
 #: urls.py:129
 msgctxt "urls"
 msgid "unsubscribe/"
-msgstr "取消订阅"
+msgstr "unsubscribe/"
 
 #: urls.py:137
 msgctxt "urls"
 msgid "select_languages/"
-msgstr "选择语言/"
+msgstr "select_languages/"
 
 #: urls.py:148
 msgctxt "urls"
 msgid "groups/"
-msgstr "小组/"
+msgstr "groups/"
 
 #: urls.py:153 urls.py:158
 msgctxt "urls"
 msgid "badges/"
-msgstr "奖牌/"
+msgstr "badges/"
 
 #: urls.py:171
 msgctxt "urls"
 msgid "feedback/"
-msgstr "反馈/"
+msgstr "feedback/"
 
 #: urls.py:193
 msgctxt "urls"
 msgid "about/"
-msgstr "关于/"
+msgstr "about/"
 
 #: urls.py:194
 msgctxt "urls"
 msgid "faq/"
-msgstr "常见问题/"
+msgstr "faq/"
 
 #: urls.py:195
 msgctxt "urls"
 msgid "privacy/"
-msgstr "隐私政策/"
+msgstr "privacy/"
 
 #: urls.py:197
 msgctxt "urls"
 msgid "terms/"
-msgstr "条款/"
+msgstr "terms/"
 
 #: urls.py:202
 msgctxt "urls"
 msgid "help/"
-msgstr "帮助/"
+msgstr "help/"
 
 #: urls.py:204 urls.py:209
 msgctxt "urls"
 msgid "answers/"
-msgstr "回答/"
+msgstr "answers/"
 
 #: urls.py:209 urls.py:346
 msgctxt "urls"
 msgid "revisions/"
-msgstr "修订版本/"
+msgstr "revisions/"
 
 #: urls.py:241
 msgctxt "urls"
 msgid "moderation-queue/"
-msgstr "管理队列/"
+msgstr "moderation-queue/"
 
 #: urls.py:306 urls.py:614 urls.py:622 urls.py:630 urls.py:638
 msgctxt "urls"
 msgid "ask/"
-msgstr "提问/"
+msgstr "ask/"
 
 #: urls.py:316
 msgctxt "urls"
 msgid "retag/"
-msgstr "更新标签/"
+msgstr "retag/"
 
 #: urls.py:321
 msgctxt "urls"
 msgid "close/"
-msgstr "关闭/"
+msgstr "close/"
 
 #: urls.py:326
 msgctxt "urls"
 msgid "reopen/"
-msgstr "重新打开/"
+msgstr "reopen/"
 
 #: urls.py:331
 msgctxt "urls"
 msgid "answer/"
-msgstr "回答/"
+msgstr "answer/"
 
 #: urls.py:412 urls.py:663
 msgctxt "urls"
 msgid "delete/"
-msgstr "删除/"
+msgstr "delete/"
 
 #: urls.py:421 urls.py:647
 msgctxt "urls"
 msgid "create/"
-msgstr "新建/"
+msgstr "create/"
 
 #: urls.py:436
 msgctxt "urls"
 msgid "suggested-tags/"
-msgstr "推荐的标签/"
+msgstr "suggested-tags/"
 
 #: urls.py:607 urls.py:613 urls.py:621 urls.py:629 urls.py:637 urls.py:646
 #: urls.py:654 urls.py:662 urls.py:669
 msgctxt "urls"
 msgid "widgets/"
-msgstr "小工具/"
+msgstr "widgets/"
 
 #: urls.py:639 deps/django_authopenid/urls.py:27
 msgctxt "urls"
 msgid "complete/"
-msgstr "完成/"
+msgstr "complete/"
 
 #: urls.py:700
 msgctxt "urls"
 msgid "upload/"
-msgstr "上传/"
+msgstr "upload/"
 
 #: urls.py:731
 msgctxt "urls"
 msgid "account/"
-msgstr "账户/"
+msgstr "account/"
 
 #: conf/access_control.py:11
 msgid "Access control settings"
@@ -687,12 +687,12 @@ msgstr "允许版主访问其他人的消息"
 
 #: conf/badges.py:16
 msgid "Badge settings"
-msgstr "奖牌设置"
+msgstr "勋章设置"
 
 #: conf/badges.py:27
 #, python-format
 msgid "Enable \"%s\" badge"
-msgstr ""
+msgstr "启用\"%s\"勋章"
 
 #: conf/badges.py:47 models/badges.py:709
 msgid "Associate Editor"
@@ -752,7 +752,7 @@ msgstr ""
 
 #: conf/badges.py:91 conf/badges.py:157 conf/badges.py:165
 msgid "minimum upvotes"
-msgstr ""
+msgstr "最少赞成票"
 
 #: conf/badges.py:97 models/badges.py:808
 msgid "Enthusiast"
@@ -760,7 +760,7 @@ msgstr "粉丝"
 
 #: conf/badges.py:99
 msgid "minimum days"
-msgstr ""
+msgstr "最少天数"
 
 #: conf/badges.py:103 models/badges.py:877
 msgid "Expert"
@@ -772,7 +772,7 @@ msgstr "著名问题"
 
 #: conf/badges.py:109 conf/badges.py:190 conf/badges.py:208
 msgid "minimum views"
-msgstr ""
+msgstr "最少浏览数"
 
 #: conf/badges.py:115 conf/words.py:488 conf/words.py:489
 msgid "Favorite Question"
@@ -788,7 +788,7 @@ msgstr "优秀回答"
 
 #: conf/badges.py:125 conf/badges.py:141 conf/badges.py:182 conf/badges.py:248
 msgid "minimum upvotes for the answer"
-msgstr ""
+msgstr "最少赞成票的答案"
 
 #: conf/badges.py:131 conf/words.py:411 conf/words.py:412
 msgid "Good Question"
@@ -796,7 +796,7 @@ msgstr "优秀问题"
 
 #: conf/badges.py:133 conf/badges.py:149 conf/badges.py:174
 msgid "minimum upvotes for the question"
-msgstr ""
+msgstr "最少赞成票的问题"
 
 #: conf/badges.py:139 conf/words.py:422 conf/words.py:423
 msgid "Great Answer"
@@ -816,7 +816,7 @@ msgstr "复兴的问题"
 
 #: conf/badges.py:166
 msgid "minimum delay in days"
-msgstr ""
+msgstr "最少延迟天数"
 
 #: conf/badges.py:172 conf/words.py:389 conf/words.py:390
 msgid "Nice Question"
@@ -836,11 +836,11 @@ msgstr "组织者"
 
 #: conf/badges.py:198
 msgid "Peer pressure"
-msgstr ""
+msgstr "他律"
 
 #: conf/badges.py:200
 msgid "minimum downvotes for deleted post"
-msgstr ""
+msgstr "删除文章所需最少反对票"
 
 #: conf/badges.py:206 conf/words.py:444 conf/words.py:445
 msgid "Popular Question"
@@ -860,7 +860,7 @@ msgstr "自学者"
 
 #: conf/badges.py:220
 msgid "minimum answer upvotes"
-msgstr ""
+msgstr "最少赞成票的回答"
 
 #: conf/badges.py:226 conf/words.py:477 conf/words.py:478
 msgid "Stellar Question"
@@ -914,11 +914,11 @@ msgstr ""
 
 #: conf/email.py:71
 msgid "Enable welcome email"
-msgstr ""
+msgstr "启用欢迎邮件"
 
 #: conf/email.py:80
 msgid "Enable rejected post alert"
-msgstr ""
+msgstr "启用拒绝提交警告"
 
 #: conf/email.py:81 conf/email.py:91
 msgid "Also, premoderation mode must be enabled"
@@ -926,15 +926,15 @@ msgstr ""
 
 #: conf/email.py:90
 msgid "Enable approved post alert"
-msgstr ""
+msgstr "启用提交验证通过提醒"
 
 #: conf/email.py:100
 msgid "Enable batch email alert"
-msgstr ""
+msgstr "启用批量邮件提醒"
 
 #: conf/email.py:109
 msgid "Enable private messaging alerts"
-msgstr ""
+msgstr "启用私有消息提醒"
 
 #: conf/email.py:118
 msgid "Enable moderation queue alerts"
@@ -1530,7 +1530,7 @@ msgstr "回答正文最小长度 (字符数)"
 
 #: conf/forum_data_rules.py:197
 msgid "Show comment updates on the main page"
-msgstr ""
+msgstr "在主页显示评论更新"
 
 #: conf/forum_data_rules.py:207
 msgid "Minimum length of comment (number of characters)"
@@ -1542,7 +1542,7 @@ msgstr "每个用户只允许回答一次"
 
 #: conf/forum_data_rules.py:228
 msgid "Allow commenting in closed questions"
-msgstr ""
+msgstr "允许评论已关闭的问题"
 
 #: conf/forum_data_rules.py:237
 msgid "Enable accepting best answer"
@@ -1550,7 +1550,7 @@ msgstr "可以接受最佳答案"
 
 #: conf/forum_data_rules.py:246
 msgid "Show accepted answer first"
-msgstr ""
+msgstr "显示被接受的第一个答案"
 
 #: conf/forum_data_rules.py:256
 msgid "How to sort answers by default"
@@ -1645,11 +1645,11 @@ msgstr "在主页启用单独的标签搜索栏"
 
 #: conf/forum_data_rules.py:386
 msgid "Enable comments under questions"
-msgstr ""
+msgstr "启用在问题下评论"
 
 #: conf/forum_data_rules.py:395
 msgid "Enable comments under answers"
-msgstr ""
+msgstr "启用在回答下评论"
 
 #: conf/forum_data_rules.py:405
 msgid "Default max number of comments to display under posts"
@@ -1661,11 +1661,11 @@ msgstr "翻转评论顺序"
 
 #: conf/forum_data_rules.py:424
 msgid "Minimum words to start wrapping comments"
-msgstr ""
+msgstr "评论中自动换行位置"
 
 #: conf/forum_data_rules.py:433
 msgid "Minimum words to start wrapping posts"
-msgstr ""
+msgstr "帖子中自动换行位置"
 
 #: conf/forum_data_rules.py:443
 #, python-format
@@ -1702,7 +1702,7 @@ msgstr "当评论内容只有一行的时候这也许会有用，但当使用Tin
 
 #: conf/forum_data_rules.py:486
 msgid "Limit time to edit answers"
-msgstr ""
+msgstr "限制编辑答案的时间"
 
 #: conf/forum_data_rules.py:496
 msgid "Minutes allowed to edit answers"
@@ -1710,11 +1710,11 @@ msgstr ""
 
 #: conf/forum_data_rules.py:506
 msgid "Limit time to edit questions"
-msgstr ""
+msgstr "限制编辑问题的时间"
 
 #: conf/forum_data_rules.py:516
 msgid "Minutes allowed to edit questions"
-msgstr ""
+msgstr "允许编辑答案的分钟数"
 
 #: conf/forum_data_rules.py:526
 msgid "Minimum length of search term for Ajax search"
@@ -1745,7 +1745,7 @@ msgstr "默认显示的问题数"
 
 #: conf/forum_data_rules.py:572
 msgid "Maximum users per users page"
-msgstr ""
+msgstr "每页最大用户数"
 
 #: conf/forum_data_rules.py:582
 msgid "What should \"unanswered question\" mean?"
@@ -1799,7 +1799,7 @@ msgstr "用户的奖牌数可能会公开显示或者只对拥有者可见"
 
 #: conf/karma_and_badges_visibility.py:44
 msgid "Visibility of badges"
-msgstr "奖牌可见性"
+msgstr "勋章可见性"
 
 #: conf/karma_and_badges_visibility.py:47
 msgid "Badges can be either publicly shown or completely hidden"
@@ -2454,17 +2454,17 @@ msgstr "同一个帖子被标记5次垃圾贴的作者积分减少"
 msgid ""
 "There are required related settings: %(required)s and some optional: "
 "%(optional)s."
-msgstr ""
+msgstr "这些是必须的相关设置：%(required)，这些是可选的：%(optional)。"
 
 #: conf/settings_wrapper.py:175
 #, python-format
 msgid "There are required related settings: %(required)s."
-msgstr ""
+msgstr "这些是必须的相关设置：%(required)。"
 
 #: conf/settings_wrapper.py:181
 #, python-format
 msgid "There are optional related settings: %(optional)s."
-msgstr ""
+msgstr "这些是可选的相关设置：%(optional)。"
 
 #: conf/sidebar_main.py:12
 msgid "Main page sidebar"
@@ -3206,6 +3206,8 @@ msgid ""
 "question\n"
 "questions"
 msgstr ""
+"问题\n"
+"问题"
 
 #: conf/words.py:277
 msgid "Countable plural forms for \"question\""
@@ -3220,6 +3222,8 @@ msgid ""
 "answer\n"
 "answers"
 msgstr ""
+"答案\n"
+"答案"
 
 #: conf/words.py:288
 msgid "Countable plural forms for \"answer\""
@@ -3281,7 +3285,7 @@ msgstr "投赞票的回答"
 #: conf/words.py:424 conf/words.py:435 conf/words.py:446 conf/words.py:457
 #: conf/words.py:468 conf/words.py:479 conf/words.py:490
 msgid "Badge name"
-msgstr ""
+msgstr "勋章名称"
 
 #: conf/words.py:499 conf/words.py:500
 msgid "upvoted answers"
@@ -3602,7 +3606,7 @@ msgstr "有帖子发布时"
 
 #: const/__init__.py:77
 msgid "When post is published or revised"
-msgstr ""
+msgstr "当帖子被发布或被修改"
 
 #: const/__init__.py:111
 msgid "latest first"
@@ -3667,7 +3671,7 @@ msgstr "未回答的问题"
 
 #: const/__init__.py:157
 msgid "Question has no accepted answers"
-msgstr "仍没有正确答案的问题"
+msgstr "无接受答案的问题"
 
 #: const/__init__.py:220
 msgid "asked a question"
@@ -3695,7 +3699,7 @@ msgstr "修改回答"
 
 #: const/__init__.py:226
 msgid "received badge"
-msgstr "获得奖牌"
+msgstr "获得勋章"
 
 #: const/__init__.py:227
 msgid "marked best answer"
@@ -3743,7 +3747,7 @@ msgstr "发送邮件更新"
 
 #: const/__init__.py:238
 msgid "a post was shared"
-msgstr ""
+msgstr "被分享的帖子"
 
 #: const/__init__.py:241
 msgid "reminder about unanswered questions sent"
@@ -3820,7 +3824,7 @@ msgstr "只要订阅标签"
 
 #: const/__init__.py:443 const/__init__.py:449 const/__init__.py:455
 msgid "subscribe to all tags"
-msgstr ""
+msgstr "订阅所有标签"
 
 #: const/__init__.py:462
 #: templates/user_profile/user_email_subscriptions.html:22
@@ -3840,7 +3844,7 @@ msgstr "每周"
 #: const/__init__.py:465
 #: templates/user_profile/user_email_subscriptions.html:25
 msgid "never"
-msgstr ""
+msgstr "从不"
 
 #: const/__init__.py:471
 msgid "identicon"
@@ -3864,7 +3868,7 @@ msgstr "神秘人"
 
 #: const/__init__.py:479 templates/avatar/show_list.html:13
 msgid "Default avatar"
-msgstr ""
+msgstr "默认头像"
 
 #: const/__init__.py:480 templates/avatar/show_list.html:26
 msgid "Gravatar"
@@ -4092,7 +4096,7 @@ msgstr "对不起，邮件地址不存在"
 
 #: deps/django_authopenid/forms.py:477
 msgid "Your user name"
-msgstr ""
+msgstr "您的用户名"
 
 #: deps/django_authopenid/forms.py:493
 msgid "sorry, there is no such user name"
@@ -4122,27 +4126,27 @@ msgstr ""
 #: deps/django_authopenid/urls.py:44
 msgctxt "urls"
 msgid "register/"
-msgstr "注册/"
+msgstr "register/"
 
 #: deps/django_authopenid/urls.py:46
 msgctxt "urls"
 msgid "signup/"
-msgstr "注册"
+msgstr "signup"
 
 #: deps/django_authopenid/urls.py:55
 msgctxt "urls"
 msgid "logout/"
-msgstr "注销/"
+msgstr "logout/"
 
 #: deps/django_authopenid/urls.py:57
 msgctxt "urls"
 msgid "recover/"
-msgstr "恢复/"
+msgstr "recover/"
 
 #: deps/django_authopenid/urls.py:62
 msgctxt "urls"
 msgid "verify-email/"
-msgstr "验证电子邮件地址/"
+msgstr "verify-email/"
 
 #: deps/django_authopenid/util.py:431
 #, python-format
@@ -4273,7 +4277,7 @@ msgstr "发送账户恢复邮件"
 
 #: deps/django_authopenid/views.py:816 deps/django_authopenid/views.py:821
 msgid "Add at least one login method"
-msgstr ""
+msgstr "增加至少一种登录方式"
 
 #: deps/django_authopenid/views.py:818
 msgid "If you wish, please add, remove or re-validate your login methods"
@@ -4885,19 +4889,19 @@ msgstr "%(username)s 积分是 %(reputation)s"
 #, python-format
 msgid "one gold badge"
 msgid_plural "%(count)d gold badges"
-msgstr[0] "%(count)d 金牌"
+msgstr[0] "%(count)个金牌"
 
 #: models/__init__.py:2926
 #, python-format
 msgid "one silver badge"
 msgid_plural "%(count)d silver badges"
-msgstr[0] "%(count)d 银牌"
+msgstr[0] "%(count)个银牌"
 
 #: models/__init__.py:2933
 #, python-format
 msgid "one bronze badge"
 msgid_plural "%(count)d bronze badges"
-msgstr[0] "%(count)d 铜牌"
+msgstr[0] "%(count)个铜牌"
 
 #: models/__init__.py:2944
 #, python-format
@@ -4907,7 +4911,7 @@ msgstr "%(item1)s 和 %(item2)s"
 #: models/__init__.py:2946
 #, python-format
 msgid "%(user)s has %(badges)s"
-msgstr "%(user)s 有 %(badges)s"
+msgstr "%(user)有%(badges)"
 
 #: models/__init__.py:3094
 #, python-format
@@ -5047,12 +5051,12 @@ msgstr ""
 #: models/badges.py:812
 #, python-format
 msgid "Visited site every day for %(num)s days in a row"
-msgstr "过去%(num)s天每天都来访问网站的用户"
+msgstr "过去%(num)天每天都来访问网站的用户"
 
 #: models/badges.py:835
 #, python-format
 msgid "Posted %(num_comments)s comments"
-msgstr "%(num_comments)s次评论"
+msgstr "提交%(num_comments)次评论"
 
 #: models/badges.py:856
 #, python-format
@@ -5074,7 +5078,7 @@ msgstr ""
 
 #: models/post.py:925
 msgid "merged revision"
-msgstr ""
+msgstr "合并修改"
 
 #: models/post.py:1125 templates/question/answer_controls.html:60
 #: templatetags/extra_filters_jinja.py:147
@@ -5247,7 +5251,7 @@ msgstr ""
 
 #: templates/404.html:14 templates/widgets/footer.html:39
 msgid "faq"
-msgstr ""
+msgstr "常见问题"
 
 #: templates/404.html:16
 msgid "if you believe this error 404 should not have occured, please"
@@ -5288,7 +5292,7 @@ msgstr ""
 #: templates/moderation/manage_reject_reasons_dialog.html:19
 #: templates/user_profile/user_edit.html:90
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: templates/answer_edit.html:85 templates/answer_edit.html.py:88
 #: templates/ask.html:60 templates/ask.html.py:63
@@ -5296,34 +5300,34 @@ msgstr ""
 #: templates/editors/rich_text.html:18 templates/question/javascript.html:129
 #: templates/question/javascript.html:132
 msgid "hide preview"
-msgstr ""
+msgstr "隐藏预览"
 
 #: templates/answer_edit.html:88 templates/ask.html:63
 #: templates/question_edit.html:106 templates/question/javascript.html:132
 msgid "show preview"
-msgstr ""
+msgstr "显示预览"
 
 #: templates/badge.html:5 templates/badge.html.py:9
 #: templates/user_profile/user_recent.html:18
 #: templates/user_profile/user_stats.html:77
 #, python-format
 msgid "%(name)s"
-msgstr ""
+msgstr "%(name)"
 
 #: templates/badge.html:5
 msgid "Badge"
-msgstr ""
+msgstr "勋章"
 
 #: templates/badge.html:7
 #, python-format
 msgid "Badge \"%(name)s\""
-msgstr ""
+msgstr "勋章\"%(name)s\""
 
 #: templates/badge.html:9 templates/user_profile/user_recent.html:16
 #: templates/user_profile/user_stats.html:75
 #, python-format
 msgid "%(description)s"
-msgstr ""
+msgstr "%(描述)"
 
 #: templates/badge.html:14
 msgid "user received this badge:"
@@ -5332,7 +5336,7 @@ msgstr[0] ""
 
 #: templates/badges.html:3 templates/badges.html.py:5
 msgid "Badges"
-msgstr ""
+msgstr "勋章"
 
 #: templates/badges.html:9
 msgid ""
@@ -5342,7 +5346,7 @@ msgstr ""
 
 #: templates/badges.html:30
 msgid "Community badges"
-msgstr ""
+msgstr "社区勋章"
 
 #: templates/badges.html:32
 msgid "gold badge: the highest honor and is very rare"
@@ -6056,7 +6060,7 @@ msgstr ""
 
 #: templates/users.html:48
 msgid "recent"
-msgstr ""
+msgstr "最近"
 
 #: templates/users.html:60
 msgid "by username"
@@ -6069,13 +6073,13 @@ msgstr ""
 
 #: templates/users.html:69
 msgid "No users found."
-msgstr ""
+msgstr "没有用户被发现。"
 
 #: templates/authopenid/account_recovery_form.html:2
 #: templates/authopenid/signin.html:181
 #: templates/authopenid/widget_signin.html:169
 msgid "Enter your email"
-msgstr ""
+msgstr "输入您的邮箱地址"
 
 #: templates/authopenid/account_recovery_form.html:5
 msgid "Send a new recovery key"
@@ -6088,7 +6092,7 @@ msgstr ""
 #: templates/authopenid/signin.html:182
 #: templates/authopenid/widget_signin.html:170
 msgid "Recover account"
-msgstr ""
+msgstr "恢复账号"
 
 #: templates/authopenid/authopenid_macros.html:60
 msgid "Please enter your <span>user name</span>, then sign in"
@@ -6103,11 +6107,11 @@ msgstr ""
 #: templates/authopenid/signin.html:98
 #: templates/authopenid/widget_signin.html:88
 msgid "Sign in"
-msgstr ""
+msgstr "登录"
 
 #: templates/authopenid/complete.html:21 templates/authopenid/complete.html:30
 msgid "Complete registration"
-msgstr ""
+msgstr "完成注册"
 
 #: templates/authopenid/complete.html:27
 #: templates/authopenid/signup_with_password.html:16
@@ -6123,13 +6127,13 @@ msgstr "昵称"
 #: templates/authopenid/signup_with_password.html:40
 #: templates/widgets/proxy_author_fields.html:18
 msgid "Email address"
-msgstr ""
+msgstr "邮箱地址"
 
 #: templates/authopenid/complete.html:88
 #: templates/authopenid/signup_with_password.html:5
 #: templates/authopenid/signup_with_password.html:68
 msgid "Signup"
-msgstr ""
+msgstr "注册"
 
 #: templates/authopenid/complete.html:100
 msgid "Already have an account?"
@@ -6145,7 +6149,7 @@ msgstr ""
 
 #: templates/authopenid/complete.html:105
 msgid "Return to registration."
-msgstr ""
+msgstr "返回到注册页面"
 
 #: templates/authopenid/confirm_email.txt:1
 msgid "Thank you for registering at our Q&A forum!"
@@ -6153,15 +6157,15 @@ msgstr "感谢你注册我们的问答论坛"
 
 #: templates/authopenid/confirm_email.txt:3
 msgid "Your account details are:"
-msgstr "你的账户详情："
+msgstr "你的账户详情:"
 
 #: templates/authopenid/confirm_email.txt:5
 msgid "Username:"
-msgstr "用户名："
+msgstr "用户名:"
 
 #: templates/authopenid/confirm_email.txt:6
 msgid "Password:"
-msgstr "密码："
+msgstr "密码:"
 
 #: templates/authopenid/confirm_email.txt:8
 msgid "Please sign in here:"
@@ -6176,7 +6180,7 @@ msgstr ""
 
 #: templates/authopenid/logout.html:3
 msgid "Logout"
-msgstr ""
+msgstr "退出"
 
 #: templates/authopenid/logout.html:5
 msgid "You have successfully logged out"
@@ -6236,21 +6240,21 @@ msgstr ""
 #: templates/authopenid/signin.html:68
 #: templates/authopenid/widget_signin.html:68
 msgid "Please, sign in"
-msgstr ""
+msgstr "请登录"
 
 #: templates/authopenid/signin.html:73
 #: templates/authopenid/widget_signin.html:75
 msgid "Login failed, please try again"
-msgstr ""
+msgstr "登录失败，请再次尝试"
 
 #: templates/authopenid/signin.html:82
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: templates/authopenid/signin.html:84
 #: templates/authopenid/widget_signin.html:79
 msgid "Username or email"
-msgstr ""
+msgstr "用户名或邮箱"
 
 #: templates/authopenid/signin.html:94
 #: templates/authopenid/signup_with_password.html:50
@@ -6266,18 +6270,18 @@ msgstr ""
 #: templates/authopenid/signin.html:115
 #: templates/authopenid/widget_signin.html:99
 msgid "New password"
-msgstr ""
+msgstr "新密码"
 
 #: templates/authopenid/signin.html:125
 #: templates/authopenid/widget_signin.html:108
 msgid "Please, retype"
-msgstr ""
+msgstr "请重新输入"
 
 #: templates/authopenid/signin.html:130
 #: templates/authopenid/widget_signin.html:118
 #: templates/livesettings/site_settings.html:24
 msgid "Change password"
-msgstr ""
+msgstr "修改密码"
 
 #: templates/authopenid/signin.html:144
 #: templates/authopenid/widget_signin.html:132
@@ -6292,7 +6296,7 @@ msgstr ""
 #: templates/authopenid/signin.html:149
 #: templates/authopenid/widget_signin.html:137
 msgid "last used"
-msgstr ""
+msgstr "最新使用"
 
 #: templates/authopenid/signin.html:163
 #: templates/authopenid/widget_signin.html:151
@@ -6300,7 +6304,7 @@ msgstr ""
 #: templates/question/question_controls.html:34
 #: templates/user_inbox/responses.html:10
 msgid "delete"
-msgstr ""
+msgstr "删除"
 
 #: templates/authopenid/signin.html:165
 #: templates/authopenid/widget_signin.html:153
@@ -6327,16 +6331,16 @@ msgstr ""
 
 #: templates/authopenid/signup_with_password.html:60 utils/forms.py:293
 msgid "Password retyped"
-msgstr ""
+msgstr "再次输入密码"
 
 #: templates/authopenid/tos_field.html:4
 msgid "Terms of service:"
-msgstr ""
+msgstr "服务条款:"
 
 #: templates/authopenid/verify_email.html:2
 #: templates/authopenid/verify_email.html:4
 msgid "Confirm email address"
-msgstr ""
+msgstr "确认邮箱地址"
 
 #: templates/authopenid/verify_email.html:6
 msgid ""
@@ -6346,7 +6350,7 @@ msgstr ""
 
 #: templates/authopenid/verify_email.html:11
 msgid "Confirm email"
-msgstr ""
+msgstr "确认邮件"
 
 #: templates/authopenid/widget_signin.html:19
 msgid ""
@@ -6363,7 +6367,7 @@ msgstr ""
 #: templates/authopenid/email_validation/body.html:3
 #, python-format
 msgid "Greetings from %(site_name)s"
-msgstr ""
+msgstr "来自%(site_name)的问候"
 
 #: templates/authopenid/email_validation/body.html:7
 #: templates/authopenid/email_validation/body.txt:3
@@ -6404,7 +6408,7 @@ msgstr ""
 
 #: templates/avatar/confirm_delete.html:2
 msgid "delete avatar"
-msgstr ""
+msgstr "删除头像"
 
 #: templates/avatar/confirm_delete.html:4
 msgid "Please select the avatars that you would like to delete."
@@ -6423,7 +6427,7 @@ msgstr ""
 
 #: templates/avatar/show_list.html:3
 msgid "manage avatars"
-msgstr ""
+msgstr "管理头像"
 
 #: templates/avatar/show_list.html:13
 msgid ""
@@ -6449,7 +6453,7 @@ msgstr ""
 
 #: templates/avatar/show_list.html:56
 msgid "Primary avatar"
-msgstr ""
+msgstr "主要头像"
 
 #: templates/avatar/show_list.html:63
 msgid "You haven't uploaded an avatar yet."
@@ -6457,7 +6461,7 @@ msgstr ""
 
 #: templates/avatar/show_list.html:68
 msgid "Upload an avatar"
-msgstr ""
+msgstr "上传头像"
 
 #: templates/editors/rich_text.html:16
 msgid "Toggle the real time Markdown editor preview"
@@ -6493,7 +6497,7 @@ msgstr ""
 
 #: templates/email/list_emails.html:2
 msgid "Preview of emails"
-msgstr ""
+msgstr "邮件预览"
 
 #: templates/email/list_emails.html:4
 msgid "List of emails sent by Askbot"
@@ -6506,7 +6510,7 @@ msgstr ""
 
 #: templates/email/macros.html:51
 msgid "Tags:"
-msgstr ""
+msgstr "标签:"
 
 #: templates/email/post_as_subthread.html:8
 #, python-format
@@ -6523,24 +6527,24 @@ msgstr[0] ""
 #: templates/email/preview_email.html:2 templates/email/preview_email.html:8
 #, python-format
 msgid "Preview of email \"%(title)s\""
-msgstr ""
+msgstr "预览邮件\"%(title)s\""
 
 #: templates/email/preview_email.html:5
 msgid "Askbot emails"
-msgstr ""
+msgstr "Askbot邮件"
 
 #: templates/email/preview_email.html:13
 #, python-format
 msgid "Example %%(num)d"
-msgstr ""
+msgstr "示例%%(num)"
 
 #: templates/email/preview_email.html:19
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #: templates/email/preview_email.html:20
 msgid "Body text (below, email styling preserved)"
-msgstr ""
+msgstr "内容"
 
 #: templates/email/accept_answers_reminder/body.html:2
 #: templates/email/accept_answers_reminder/body.html:3
@@ -6747,7 +6751,7 @@ msgstr "欢迎 %(site_name)s"
 #: templates/email/welcome_respondable/body.html:4
 #, python-format
 msgid "Welcome to %(site_name)s!"
-msgstr ""
+msgstr "欢迎来到%(site_name)!"
 
 #: templates/email/welcome_respondable/body.html:10
 msgid ""
@@ -6788,11 +6792,11 @@ msgstr "编辑"
 #: templates/embed/list_widgets.html:24 templates/embed/list_widgets.html:35
 #: templates/tags/list_bulk_tag_subscription.html:53
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: templates/embed/list_widgets.html:48
 msgid "How to use?"
-msgstr ""
+msgstr "怎样使用?"
 
 #: templates/embed/list_widgets.html:50
 msgid ""
@@ -7818,7 +7822,7 @@ msgstr ""
 
 #: templates/widgets/contributors.html:3
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #: templates/widgets/footer.html:33
 #, python-format
@@ -7827,43 +7831,43 @@ msgstr ""
 
 #: templates/widgets/footer.html:38
 msgid "about"
-msgstr ""
+msgstr "关于"
 
 #: templates/widgets/footer.html:40 templates/widgets/user_navigation.html:20
 msgid "help"
-msgstr ""
+msgstr "帮助"
 
 #: templates/widgets/footer.html:42
 msgid "privacy policy"
-msgstr ""
+msgstr "隐私政策"
 
 #: templates/widgets/footer.html:43
 msgid "terms of service"
-msgstr ""
+msgstr "服务条款"
 
 #: templates/widgets/footer.html:55
 msgid "give feedback"
-msgstr ""
+msgstr "反馈"
 
 #: templates/widgets/group_info.html:3
 msgid "Group info"
-msgstr ""
+msgstr "群信息"
 
 #: templates/widgets/group_info.html:26
 msgid "edit description"
-msgstr ""
+msgstr "编辑描述"
 
 #: templates/widgets/group_info.html:30
 msgid "change logo"
-msgstr ""
+msgstr "更改logo"
 
 #: templates/widgets/group_info.html:32
 msgid "delete logo"
-msgstr ""
+msgstr "删除logo"
 
 #: templates/widgets/group_info.html:36
 msgid "add logo"
-msgstr ""
+msgstr "增加logo"
 
 #: templates/widgets/group_info.html:46
 msgid "moderate emailed content"
@@ -7871,7 +7875,7 @@ msgstr ""
 
 #: templates/widgets/group_info.html:63
 msgid "How users join this group?"
-msgstr ""
+msgstr "用户怎样加入群组？"
 
 #: templates/widgets/group_info.html:85
 msgid "Can moderate site"
@@ -7879,7 +7883,7 @@ msgstr ""
 
 #: templates/widgets/group_info.html:95
 msgid "Allow only read access"
-msgstr ""
+msgstr "只读存取"
 
 #: templates/widgets/group_info.html:104
 msgid "List of preapproved email addresses"
@@ -7944,7 +7948,7 @@ msgstr ""
 
 #: templates/widgets/markdown_help.html:24
 msgid "image"
-msgstr ""
+msgstr "图片"
 
 #: templates/widgets/markdown_help.html:28
 msgid "numbered list:"
@@ -7952,11 +7956,11 @@ msgstr ""
 
 #: templates/widgets/markdown_help.html:29
 msgid "One"
-msgstr ""
+msgstr "一"
 
 #: templates/widgets/markdown_help.html:30
 msgid "Two"
-msgstr ""
+msgstr "二"
 
 #: templates/widgets/markdown_help.html:33
 msgid "basic HTML tags are also supported"
@@ -7972,11 +7976,11 @@ msgstr ""
 
 #: templates/widgets/meta_nav.html:21
 msgid "users"
-msgstr ""
+msgstr "用户们"
 
 #: templates/widgets/meta_nav.html:28
 msgid "badges"
-msgstr ""
+msgstr "勋章"
 
 #: templates/widgets/moderated_image.html:1
 msgid "image awaiting moderation"
@@ -8000,101 +8004,101 @@ msgstr ""
 msgid ""
 "since you are not logged in right now, you will be asked to sign in or "
 "register after making your post"
-msgstr ""
+msgstr "您现在还没有登录，请您注册并登录后才能发布问题或答案"
 
 #: templates/widgets/question_summary.html:12
 msgid "view"
 msgid_plural "views"
-msgstr[0] ""
+msgstr[0] "浏览"
 
 #: templates/widgets/question_summary.html:41
 msgid "vote"
 msgid_plural "votes"
-msgstr[0] ""
+msgstr[0] "投票"
 
 #: templates/widgets/scope_nav.html:10
 msgid "ALL"
-msgstr ""
+msgstr "所有问题"
 
 #: templates/widgets/scope_nav.html:20
 msgid "FOLLOWED"
-msgstr ""
+msgstr "已关注问题"
 
 #: templates/widgets/search_bar.html:20
 msgid "search or ask your question"
-msgstr ""
+msgstr "搜索或提问"
 
 #: templates/widgets/tag_selector.html:4
 msgid "Interesting tags"
-msgstr ""
+msgstr "感兴趣的标签"
 
 #: templates/widgets/tag_selector.html:22
 msgid "Ignored tags"
-msgstr ""
+msgstr "不感兴趣的标签"
 
 #: templates/widgets/tag_selector.html:40
 msgid "Subscribed tags"
-msgstr ""
+msgstr "订阅的标签"
 
 #: templates/widgets/tag_selector.html:70
 msgid "Send me email alerts for"
-msgstr ""
+msgstr "发送邮件提醒"
 
 #: templates/widgets/tag_selector.html:86
 msgid "Change frequency of emails"
-msgstr ""
+msgstr "改变发送邮件的频率"
 
 #: templates/widgets/tags_field.html:11
 msgid ", one of these is required"
-msgstr ""
+msgstr ", 其中的一个是必须的"
 
 #: templates/widgets/tags_field.html:15
 msgid "(required)"
-msgstr ""
+msgstr "(必须的)"
 
 #: templates/widgets/three_column_category_selector.html:7
 #: templates/widgets/three_column_category_selector.html:10
 msgid "(done editing)"
-msgstr ""
+msgstr "(完成编辑)"
 
 #: templates/widgets/three_column_category_selector.html:8
 #: templates/widgets/three_column_category_selector.html:9
 #: templates/widgets/three_column_category_selector.html:11
 msgid "(edit categories)"
-msgstr ""
+msgstr "(编辑分类)"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:3
 msgid "read only access"
-msgstr ""
+msgstr "(只读存取)"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:10
 msgid "karma:"
-msgstr ""
+msgstr "声望:"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:15
 msgid "badges:"
-msgstr ""
+msgstr "勋章:"
 
 #: templates/widgets/user_navigation.html:11
 msgid "sign out"
-msgstr ""
+msgstr "退出"
 
 #: templates/widgets/user_navigation.html:17
 msgid "settings"
-msgstr ""
+msgstr "设置"
 
 #: templates/widgets/user_navigation.html:18
 msgid "widgets"
-msgstr ""
+msgstr "小部件"
 
 #: templates/widgets/user_perms.html:1
 #, python-format
 msgid "Your karma is %(karma)s"
-msgstr ""
+msgstr "您的声望是%(karma)"
 
 #: templates/widgets/user_perms.html:4
 msgid "Karma reflects the value of your contribution to this community."
-msgstr ""
+msgstr "声望反应了您对社区的贡献度大小。"
 
 #: templates/widgets/user_perms.html:13
 #, python-format
@@ -8113,7 +8117,7 @@ msgstr ""
 
 #: templates/widgets/user_perms.html:21
 msgid "Make new posts"
-msgstr ""
+msgstr "发布新提交"
 
 #: templatetags/extra_filters_jinja.py:369
 msgid "no"
@@ -8121,7 +8125,7 @@ msgstr "无"
 
 #: templatetags/extra_filters_jinja.py:403
 msgid "Visitor"
-msgstr ""
+msgstr "访客"
 
 #: utils/decorators.py:104
 msgid "Oops, apologies - there was some error"
@@ -8142,7 +8146,7 @@ msgstr "该功能仅限于版主和管理员"
 
 #: utils/decorators.py:238
 msgid "This function is limited to administrators"
-msgstr ""
+msgstr "该功能仅限管理员使用"
 
 #: utils/forms.py:68
 msgid "this field is required"
@@ -8287,7 +8291,7 @@ msgstr "创建"
 
 #: views/commands.py:634 views/commands.py:683
 msgid "make edits"
-msgstr ""
+msgstr "编辑"
 
 #: views/commands.py:846
 msgid "Please sign in to vote"
