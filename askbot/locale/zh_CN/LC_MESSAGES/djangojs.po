@@ -65,7 +65,7 @@ msgid_plural "Sorry, these tags do not exist"
 msgstr[0] "对不起，这些标签不存在"
 
 #: media/js/live_search.js:315
-msgid "search or ask your question"
+msgid "Search or ask your question"
 msgstr "搜索或提问"
 
 #: media/js/post.js:28
@@ -74,7 +74,7 @@ msgstr "读取中..."
 
 #: media/js/post.js:136
 msgid "enter %(question)s title"
-msgstr "输入 %(question)s 标题"
+msgstr "输入%(question)标题"
 
 #: media/js/post.js:143 media/js/post.js.c:233
 msgid "%(question)s must have > %(length)s character"
@@ -383,7 +383,7 @@ msgstr "输入用户名"
 
 #: media/js/jquery-openid/jquery.authenticator.js:148
 msgid "enter username or email"
-msgstr "输入用户名或email"
+msgstr "输入用户名或电邮地址"
 
 #: media/js/jquery-openid/jquery.authenticator.js:157
 msgid "enter password"

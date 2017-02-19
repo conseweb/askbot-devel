@@ -104,18 +104,18 @@ msgstr "标题"
 #, python-format
 msgid "must have > %d non-punctuation character"
 msgid_plural "must have > %d non-punctuation characters"
-msgstr[0] "必须有 > %d 个非标点字符"
+msgstr[0] "必须有大于%d个非标点字符"
 
 #: forms.py:343
 #, python-format
 msgid ""
 "The %(question)s is too long, maximum allowed size is %(length)d characters"
-msgstr "%(question)s 问题太长，最大允许长度是 %(length)d 个字符"
+msgstr "%(question)问题太长，最大允许长度是%(length)个字符"
 
 #: forms.py:350
 #, python-format
 msgid "The %(question)s is too long, maximum allowed size is %(length)d bytes"
-msgstr "%(question)s 问题太长，最大允许长度是 %(length)d 字节"
+msgstr "%(question)s 问题太长，最大允许长度是%(length)字节"
 
 #: forms.py:380
 msgid "post"
@@ -125,19 +125,19 @@ msgstr "发布"
 #, python-format
 msgid "%(post)s content must be > %(count)d character"
 msgid_plural "%(post)s content must be > %(count)d characters"
-msgstr[0] "%(post)s 的内容必须 > %(count)d 个字符"
+msgstr[0] "%(post)的内容必须大于%(count)个字符"
 
 #: forms.py:436
 #, python-format
 msgid "each tag must be shorter than %(max_chars)d character"
 msgid_plural "each tag must be shorter than %(max_chars)d characters"
-msgstr[0] "每个标签最多只能有 %(max_chars)d 个字符"
+msgstr[0] "标签最多只能有%(max_chars)个字符"
 
 #: forms.py:483
 msgid ""
 "We ran out of space for recording the tags. Please shorten or delete some of"
 " them."
-msgstr "已经没有空间记录这些标签。请缩短或者删除部分标签。"
+msgstr "已经没有空间存储标签。请缩短或者删除部分标签。"
 
 #: forms.py:486 forms.py:1157 models/widgets.py:27
 #: templates/widgets/meta_nav.html:6 templates/widgets/tags_field.html:10
@@ -152,22 +152,22 @@ msgid ""
 msgid_plural ""
 "Tags are short keywords, with no spaces within. Up to %(max_tags)d tags can "
 "be used."
-msgstr[0] "标签为不带空格的间断关键词。最多可以使用 %(max_tags)d 个标签。"
+msgstr[0] "标签为不带空格的关键字。最多可以使用 %(max_tags)d 个标签。"
 
 #: forms.py:514
 #, python-format
 msgid "please use %(tag_count)d tag or less"
 msgid_plural "please use %(tag_count)d tags or less"
-msgstr[0] "最多只能有 %(tag_count)d 个标签"
+msgstr[0] "最多只能有%(tag_count)d个标签"
 
 #: forms.py:522
 #, python-format
 msgid "At least one of the following tags is required : %(tags)s"
-msgstr "至少需要有下列标签之一：%(tags)s"
+msgstr "至少选择下述标签之一：%(tags)s"
 
 #: forms.py:550
 msgid "community wiki (karma is not awarded & many others can edit wiki post)"
-msgstr "社区维基（无积分奖励，其他用户也能编辑维基文章）"
+msgstr "社区维基(无积分奖励，其他用户也能编辑维基文章)"
 
 #: forms.py:593
 msgid "update summary:"
@@ -177,11 +177,11 @@ msgstr "更新摘要："
 msgid ""
 "enter a brief summary of your revision (e.g. fixed spelling, grammar, "
 "improved style...), this field is optional"
-msgstr "输入本次修改的简单概述（如：修改了错别字，修正了语法，改进了样式等）。可选"
+msgstr "填写修订总结（比如修正拼写、语法或改进风格），(选填) "
 
 #: forms.py:719
 msgid "Enter number of points to add or subtract"
-msgstr "输入要增加或减少的点数"
+msgstr "输入要添加或减去的分数"
 
 #: forms.py:722
 msgid "Comment"
@@ -189,7 +189,7 @@ msgstr "评论"
 
 #: forms.py:734 const/__init__.py:497
 msgid "approved"
-msgstr "已接受"
+msgstr "批准"
 
 #: forms.py:735 const/__init__.py:498
 msgid "watched"
@@ -197,7 +197,7 @@ msgstr "已监视"
 
 #: forms.py:736 const/__init__.py:499
 msgid "suspended"
-msgstr "已暂停"
+msgstr "暂停使用"
 
 #: forms.py:737 const/__init__.py:500
 msgid "blocked"
@@ -240,7 +240,7 @@ msgstr "不能修改管理员的状态"
 msgid ""
 "If you wish to change %(username)s's status, please make a meaningful "
 "selection."
-msgstr "如果你希望修改 %(username)s 的状态，请作出有意义的选择。"
+msgstr "如果你希望修改%(username)的状态，请做出有意义的选择。"
 
 #: forms.py:856
 msgid "Subject line"
@@ -256,7 +256,7 @@ msgstr "您的名字（可选）："
 
 #: forms.py:869
 msgid "Email:"
-msgstr "Email:"
+msgstr "电子邮箱:"
 
 #: forms.py:871
 msgid "Your message:"
@@ -264,7 +264,7 @@ msgstr "你的消息："
 
 #: forms.py:875
 msgid "I don't want to give my email or receive a response:"
-msgstr "我不想透露我的email或者收到回复："
+msgstr "我不想透露我的邮箱地址或者收到回复："
 
 #: forms.py:889
 msgid "Message is required"
@@ -276,11 +276,11 @@ msgstr "匿名"
 
 #: forms.py:905
 msgid "Either provide email address or mark \"I dont want to give email below\""
-msgstr "请提供email地址，或者选择“我不想在下方提供email”"
+msgstr "请提供电邮地址，或者选择“我不想在下方提供电邮地址”"
 
 #: forms.py:938
 msgid "keep private within your groups"
-msgstr "设置为私密，只有您的组内成员可查看"
+msgstr "只有你的组成员可以访问"
 
 #: forms.py:977 templates/ask.html:41 templates/question.html:421
 msgid "User name:"
@@ -906,11 +906,11 @@ msgstr "网站管理员的电子邮件地址"
 
 #: conf/email.py:54
 msgid "Enable email alerts"
-msgstr "启用电子邮件提醒"
+msgstr "启用邮件提醒"
 
 #: conf/email.py:62
 msgid "Enable instant email alerts"
-msgstr ""
+msgstr "启用即时邮件提醒"
 
 #: conf/email.py:71
 msgid "Enable welcome email"
@@ -2127,6 +2127,16 @@ msgstr ""
 msgid "Must be enabled"
 msgstr ""
 
+#: conf/login_providers.py:294
+msgid "Google login"
+msgstr "谷歌登录"
+
+#: conf/login_providers.py:296
+msgid ""
+"To enable Google-Plus login, OAuth keys are required in the \"External "
+"keys\" section"
+msgstr "要使能Google+登录，必须在\"外部密钥\"中填写OAuth密钥"
+
 #: conf/markup.py:15
 msgid "Markup in posts"
 msgstr "帖子中的格式"
@@ -3076,7 +3086,7 @@ msgstr "网站专用术语和词汇表"
 
 #: conf/words.py:22 conf/words.py:23 templates/ask.html:4
 msgid "Ask Your Question"
-msgstr "发起问题"
+msgstr "提问"
 
 #: conf/words.py:24 conf/words.py:45 conf/words.py:56 conf/words.py:67
 #: conf/words.py:136
@@ -3155,7 +3165,7 @@ msgstr "提问"
 
 #: conf/words.py:155 conf/words.py:156
 msgid "post answers"
-msgstr ""
+msgstr "提交答案"
 
 #: conf/words.py:165 conf/words.py:166
 msgid "Merge duplicate questions"
@@ -4131,7 +4141,7 @@ msgstr "register/"
 #: deps/django_authopenid/urls.py:46
 msgctxt "urls"
 msgid "signup/"
-msgstr "signup"
+msgstr "signup/"
 
 #: deps/django_authopenid/urls.py:55
 msgctxt "urls"
@@ -4551,7 +4561,7 @@ msgstr ""
 
 #: mail/messages.py:711
 msgid "Unsubscribe link"
-msgstr ""
+msgstr "退订链接"
 
 #: mail/messages.py:712
 msgid "Sent when email key expired, but user is identified"
@@ -4559,7 +4569,7 @@ msgstr ""
 
 #: mail/messages.py:724
 msgid "Approved post notification"
-msgstr ""
+msgstr "帖子被批准的通知"
 
 #: mail/messages.py:725 mail/messages.py:750
 msgid "Sent when post revision is approved by the moderator"
@@ -4889,19 +4899,19 @@ msgstr "%(username)s 积分是 %(reputation)s"
 #, python-format
 msgid "one gold badge"
 msgid_plural "%(count)d gold badges"
-msgstr[0] "%(count)个金牌"
+msgstr[0] "%(count)d个金牌"
 
 #: models/__init__.py:2926
 #, python-format
 msgid "one silver badge"
 msgid_plural "%(count)d silver badges"
-msgstr[0] "%(count)个银牌"
+msgstr[0] "%(count)d个银牌"
 
 #: models/__init__.py:2933
 #, python-format
 msgid "one bronze badge"
 msgid_plural "%(count)d bronze badges"
-msgstr[0] "%(count)个铜牌"
+msgstr[0] "%(count)d个铜牌"
 
 #: models/__init__.py:2944
 #, python-format
@@ -4911,7 +4921,7 @@ msgstr "%(item1)s 和 %(item2)s"
 #: models/__init__.py:2946
 #, python-format
 msgid "%(user)s has %(badges)s"
-msgstr "%(user)有%(badges)"
+msgstr "%(user)s有%(badges)s"
 
 #: models/__init__.py:3094
 #, python-format
@@ -5051,18 +5061,18 @@ msgstr ""
 #: models/badges.py:812
 #, python-format
 msgid "Visited site every day for %(num)s days in a row"
-msgstr "过去%(num)天每天都来访问网站的用户"
+msgstr "过去%(num)s天每天都来访问网站的用户"
 
 #: models/badges.py:835
 #, python-format
 msgid "Posted %(num_comments)s comments"
-msgstr "提交%(num_comments)次评论"
+msgstr "提交 %(num_comments)s 次评论"
 
 #: models/badges.py:856
 #, python-format
 msgid "Created a tag used %(num)s time"
 msgid_plural "Created a tag used %(num)s times"
-msgstr[0] ""
+msgstr[0] "创建一个被使用了%(num)s次的标签"
 
 #: models/badges.py:880
 msgid "Very active in one tag"
@@ -6536,7 +6546,7 @@ msgstr "Askbot邮件"
 #: templates/email/preview_email.html:13
 #, python-format
 msgid "Example %%(num)d"
-msgstr "示例%%(num)"
+msgstr "示例%%(num)d"
 
 #: templates/email/preview_email.html:19
 msgid "Subject"
@@ -7791,7 +7801,7 @@ msgstr[0] "<span class=\"count\">%(counter)s</span>标签"
 #, python-format
 msgid "<span class=\"count\">%(counter)s</span> Badge"
 msgid_plural "<span class=\"count\">%(counter)s</span> Badges"
-msgstr[0] "<span class=\"count\">%(counter)s</span>奖牌"
+msgstr[0] "<span class=\"count\">%(counter)s</span>勋章"
 
 #: templates/user_profile/user_stats.html:88
 msgid "Answer to:"
@@ -7799,7 +7809,7 @@ msgstr "回答:"
 
 #: templates/user_profile/user_tabs.html:22
 msgid "email alerts"
-msgstr ""
+msgstr "邮件提醒"
 
 #: templates/user_profile/user_tabs.html:43
 #: templates/user_profile/user_votes.html:5
@@ -7980,7 +7990,7 @@ msgstr "用户"
 
 #: templates/widgets/meta_nav.html:28
 msgid "badges"
-msgstr "奖牌"
+msgstr "勋章"
 
 #: templates/widgets/moderated_image.html:1
 msgid "image awaiting moderation"
@@ -8025,7 +8035,7 @@ msgid "FOLLOWED"
 msgstr "已关注"
 
 #: templates/widgets/search_bar.html:20
-msgid "search or ask your question"
+msgid "Search or ask your question"
 msgstr "搜索或提问"
 
 #: templates/widgets/tag_selector.html:4
@@ -8073,11 +8083,11 @@ msgstr "只读访问"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:10
 msgid "karma:"
-msgstr "声望:"
+msgstr "按积分排序"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:15
 msgid "badges:"
-msgstr "奖牌："
+msgstr "勋章："
 
 #: templates/widgets/user_navigation.html:11
 msgid "sign out"
