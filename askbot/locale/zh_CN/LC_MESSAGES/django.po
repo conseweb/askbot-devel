@@ -692,7 +692,7 @@ msgstr "勋章设置"
 #: conf/badges.py:27
 #, python-format
 msgid "Enable \"%s\" badge"
-msgstr "启用\"%s\"勋章"
+msgstr "启用\"%s\"荣誉"
 
 #: conf/badges.py:47 models/badges.py:709
 msgid "Associate Editor"
@@ -2352,7 +2352,7 @@ msgstr ""
 
 #: conf/moderation.py:40
 msgid "Reject all posts with these phrases"
-msgstr ""
+msgstr "拒绝具有该短语的所有帖子"
 
 #: conf/moderation.py:41
 msgid ""
@@ -2362,11 +2362,11 @@ msgstr ""
 
 #: conf/moderation.py:53
 msgid "Enable image moderation"
-msgstr ""
+msgstr "启用图片审核"
 
 #: conf/moderation.py:62
 msgid "Enable link moderation"
-msgstr ""
+msgstr "启用链接审核"
 
 #: conf/moderation.py:71
 msgid "Enable tag moderation"
@@ -2614,7 +2614,7 @@ msgstr "取消选会可隐藏相关问题列表。"
 
 #: conf/site_modes.py:62
 msgid "Bootstrap mode"
-msgstr "Bootstrap 模式"
+msgstr "Bootstrap模式"
 
 #: conf/site_modes.py:72
 msgid "Activate a \"Large site\" mode"
@@ -2702,7 +2702,7 @@ msgstr "问答网logo"
 
 #: conf/skin_general_settings.py:54
 msgid "To change the logo, select new file, then submit this whole form."
-msgstr "要变更 logo, 请选择一个新文件并提交。"
+msgstr "要变更logo, 请选择一个新文件并提交。"
 
 #: conf/skin_general_settings.py:71
 msgid "Select Language"
@@ -2710,7 +2710,7 @@ msgstr "选择语言"
 
 #: conf/skin_general_settings.py:79
 msgid "Show logo"
-msgstr "显示 logo"
+msgstr "显示logo"
 
 #: conf/skin_general_settings.py:81
 msgid ""
@@ -2836,7 +2836,7 @@ msgstr "<strong>To use this function</strong>, check \"Apply custom style sheet\
 
 #: conf/skin_general_settings.py:272
 msgid "Add custom javascript"
-msgstr "添加自定义 javascript"
+msgstr "添加自定义js脚本"
 
 #: conf/skin_general_settings.py:275
 msgid "Check to enable javascript that you can enter in the next field"
@@ -2844,7 +2844,7 @@ msgstr "点击可启用可在下一字段输入的 javascript"
 
 #: conf/skin_general_settings.py:285
 msgid "Custom javascript"
-msgstr "自定义 javascript"
+msgstr "自定义js脚本"
 
 #: conf/skin_general_settings.py:287
 msgid ""
@@ -2931,7 +2931,7 @@ msgstr "垃圾侦测所需的 Akismet key"
 
 #: conf/super_groups.py:5
 msgid "Reputation, Badges, Votes & Flags"
-msgstr "声望、勋章、投票与标记"
+msgstr "声望、荣誉、投票与标记"
 
 #: conf/super_groups.py:6
 msgid "Static Content, URLS & UI"
@@ -2955,7 +2955,7 @@ msgstr "用户设置"
 
 #: conf/user_settings.py:23
 msgid "Welcome to our community!"
-msgstr ""
+msgstr "欢迎来到社区！"
 
 #: conf/user_settings.py:24
 msgid "On-screen greeting shown to the new users"
@@ -2999,7 +2999,7 @@ msgstr "用户昵称允许的最小长度"
 
 #: conf/user_settings.py:115
 msgid "Avatar type for new users"
-msgstr ""
+msgstr "新用户头像类型"
 
 #: conf/user_settings.py:126
 msgid "Default avatar for users"
@@ -3016,7 +3016,7 @@ msgstr "头像服务供应商的根URL"
 
 #: conf/user_settings.py:158
 msgid "Use automatic avatars from gravatar service"
-msgstr ""
+msgstr "从gravatar服务获取一个随机的头像"
 
 #: conf/user_settings.py:160
 msgid ""
@@ -3029,7 +3029,7 @@ msgstr "如果你想要允许使用gravatar.com中的头像，请选择这个选
 
 #: conf/user_settings.py:171
 msgid "Default Gravatar icon type"
-msgstr "默认 Gravatar 图标类型"
+msgstr "默认Gravatar图标类型"
 
 #: conf/user_settings.py:173
 msgid ""
@@ -3060,7 +3060,7 @@ msgstr "提醒用户每天投票的剩余数"
 
 #: conf/vote_rules.py:51
 msgid "Number of days to allow canceling votes (-1 for no limit)"
-msgstr ""
+msgstr "可以取消投票的天数(-1表示不限)"
 
 #: conf/vote_rules.py:61
 msgid "Number of days required before answering own question"
@@ -3114,7 +3114,9 @@ msgid ""
 "<span class=\"big strong\">You are welcome to answer your own "
 "question</span>, but please make sure to give an <strong>answer</strong>. "
 "Remember that you can always <strong>revise your original question</strong>."
-msgstr ""
+msgstr "<span class=\"big strong\">欢迎回答你自己的问题</span>，"
+"但是请确认给出了正确的<strong>答案</strong>。请记住你一直"
+"可以<strong>修改你原来的问题</strong>。"
 
 #: conf/words.py:81
 msgid "Instruction to answer own questions"
@@ -3124,7 +3126,7 @@ msgstr "回答自己问题的方法"
 msgid ""
 "<span class=\"strong big\">Please start posting anonymously</span> - your "
 "entry will be published after you log in or create a new account."
-msgstr ""
+msgstr "<span class=\"strong big\">您可以匿名提交答案</span> - 这个答案将会在您创建账号并登录后发布出来。"
 
 #: conf/words.py:95
 msgid "Instruction to post anonymously"
@@ -3145,7 +3147,7 @@ msgstr "提供答案的方法"
 msgid ""
 "Categorize your question using this tag selector or entering text in tag "
 "box."
-msgstr ""
+msgstr "从标签列表里面选择某个标签或输入一个标签来归类您的问题。"
 
 #: conf/words.py:124
 msgid "Instruction for the category selector"
@@ -5326,12 +5328,12 @@ msgstr "%(name)"
 
 #: templates/badge.html:5
 msgid "Badge"
-msgstr "勋章"
+msgstr "荣誉"
 
 #: templates/badge.html:7
 #, python-format
 msgid "Badge \"%(name)s\""
-msgstr "勋章\"%(name)s\""
+msgstr "荣誉\"%(name)s\""
 
 #: templates/badge.html:9 templates/user_profile/user_recent.html:16
 #: templates/user_profile/user_stats.html:75
@@ -5346,7 +5348,7 @@ msgstr[0] "用户获得奖牌"
 
 #: templates/badges.html:3 templates/badges.html.py:5
 msgid "Badges"
-msgstr "勋章"
+msgstr "荣誉"
 
 #: templates/badges.html:9
 msgid ""
@@ -7801,7 +7803,7 @@ msgstr[0] "<span class=\"count\">%(counter)s</span>标签"
 #, python-format
 msgid "<span class=\"count\">%(counter)s</span> Badge"
 msgid_plural "<span class=\"count\">%(counter)s</span> Badges"
-msgstr[0] "<span class=\"count\">%(counter)s</span>勋章"
+msgstr[0] "<span class=\"count\">%(counter)s</span>荣誉"
 
 #: templates/user_profile/user_stats.html:88
 msgid "Answer to:"
@@ -7990,7 +7992,7 @@ msgstr "用户"
 
 #: templates/widgets/meta_nav.html:28
 msgid "badges"
-msgstr "勋章"
+msgstr "荣誉"
 
 #: templates/widgets/moderated_image.html:1
 msgid "image awaiting moderation"
@@ -8087,7 +8089,7 @@ msgstr "按积分排序"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:15
 msgid "badges:"
-msgstr "勋章："
+msgstr "荣誉："
 
 #: templates/widgets/user_navigation.html:11
 msgid "sign out"
