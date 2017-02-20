@@ -1310,19 +1310,19 @@ msgstr ""
 
 #: conf/feedback.py:16
 msgid "Anyone"
-msgstr ""
+msgstr "任何人"
 
 #: conf/feedback.py:17
 msgid "Only authenticated users"
-msgstr ""
+msgstr "仅限认证用户"
 
 #: conf/feedback.py:18
 msgid "Nobody, disable feedback form"
-msgstr ""
+msgstr "禁用反馈表单"
 
 #: conf/feedback.py:27
 msgid "Who can send feedback"
-msgstr ""
+msgstr "谁能发送反馈"
 
 #: conf/feedback.py:36
 msgid "Feedback site URL"
@@ -1334,13 +1334,13 @@ msgstr "如果留空，将使用一个简单的内部反馈表格代替"
 
 #: conf/feedback.py:49
 msgid "Message on the feedback page"
-msgstr ""
+msgstr "反馈页面的消息"
 
 #: conf/feedback.py:51
 msgid ""
 "**Dear {{ USER_NAME }}**, we look forward to hearing your feedback. Please "
 "type and send us your message below."
-msgstr ""
+msgstr "**亲爱的{{ USER_NAME }}**, 我们期望听到您的反馈。请在下面输入您的反馈并发送给我们。"
 
 #: conf/feedback.py:55 conf/flatpages.py:95
 msgid ""
@@ -1351,7 +1351,7 @@ msgstr "保存，然后在 \"terms\" 页面 <a href=\"http://validator.w3.org/\"
 #: conf/feedback.py:72
 #, python-format
 msgid "'%(value)s' is not a valid email"
-msgstr ""
+msgstr "'%(value)s'不是一个有效的邮箱地址"
 
 #: conf/feedback.py:79
 msgid "Internal feedback form email recipients"
@@ -1379,7 +1379,7 @@ msgstr "保存, 然后使用 <a href=\"http://validator.w3.org/\">HTML验证</a>
 
 #: conf/flatpages.py:34
 msgid "Text of the Help page (html format)"
-msgstr ""
+msgstr "帮助页面文本(html格式)"
 
 #: conf/flatpages.py:38
 msgid ""
@@ -6326,7 +6326,7 @@ msgstr "无法删除"
 #: templates/authopenid/signin.html:177
 #: templates/authopenid/widget_signin.html:165
 msgid "Having trouble signing in?"
-msgstr ""
+msgstr "忘了密码了吗？"
 
 #: templates/authopenid/signup_with_password.html:10
 msgid ""
@@ -6411,12 +6411,12 @@ msgstr ""
 #: templates/avatar/avatar.html:3
 #, python-format
 msgid "%(username)s's primary avatar"
-msgstr ""
+msgstr "%(username)s的主要头像"
 
 #: templates/avatar/avatar.html:5
 #, python-format
 msgid "%(username)s's avatar"
-msgstr ""
+msgstr "%(username)s的头像"
 
 #: templates/avatar/confirm_delete.html:2
 msgid "delete avatar"
@@ -6450,7 +6450,7 @@ msgstr ""
 #: templates/avatar/show_list.html:21 templates/avatar/show_list.html.py:35
 #: templates/avatar/show_list.html:45
 msgid "Set as primary"
-msgstr ""
+msgstr "设置为主要"
 
 #: templates/avatar/show_list.html:26
 #, python-format
@@ -6461,7 +6461,7 @@ msgstr ""
 
 #: templates/avatar/show_list.html:52
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: templates/avatar/show_list.html:56
 msgid "Primary avatar"
@@ -6469,7 +6469,7 @@ msgstr "主要头像"
 
 #: templates/avatar/show_list.html:63
 msgid "You haven't uploaded an avatar yet."
-msgstr ""
+msgstr "您还没有上传头像。"
 
 #: templates/avatar/show_list.html:68
 msgid "Upload an avatar"
@@ -6561,12 +6561,12 @@ msgstr "内容"
 #: templates/email/accept_answers_reminder/body.html:2
 #: templates/email/accept_answers_reminder/body.html:3
 msgid "Please select the best responses for"
-msgstr ""
+msgstr "请选择一个最佳回复"
 
 #: templates/email/approved_post_notification/body.html:9
 #: templates/email/approved_post_notification_respondable/body.html:20
 msgid "Below is a copy of your post:"
-msgstr ""
+msgstr "下面是您的帖子的拷贝:"
 
 #: templates/email/approved_post_notification/subject.txt:1
 #: templates/email/approved_post_notification_respondable/subject.txt:1
