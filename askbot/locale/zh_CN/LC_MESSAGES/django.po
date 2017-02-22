@@ -6720,11 +6720,11 @@ msgstr "答复: 欢迎 %(site_name)s"
 #: templates/email/rejected_post/body.html:2
 #: templates/email/rejected_post/body.html:3
 msgid "Your post was rejected."
-msgstr ""
+msgstr "您的帖子被拒绝了。"
 
 #: templates/email/rejected_post/body.html:5
 msgid "Your post (copied in the end), was rejected for the following reason:"
-msgstr ""
+msgstr "您的帖子(在文末)因为如下原因被拒绝:"
 
 #: templates/email/rejected_post/body.html:7
 msgid "Here is your original post"
@@ -6736,7 +6736,7 @@ msgstr "帖子未被接受"
 
 #: templates/email/reply_by_email_error/body.html:3
 msgid "The system was unable to process your message successfully"
-msgstr ""
+msgstr "系统无法成功处理您的消息"
 
 #: templates/email/reply_by_email_error/subject.txt:1
 msgid "Error posting your reply"
@@ -6751,13 +6751,13 @@ msgstr ""
 #: templates/email/unsubscribe_link/subject.txt:1
 #, python-format
 msgid "Link to unsubscribe from %(site_name)s"
-msgstr ""
+msgstr "从%(site_name)s退订的链接"
 
 #: templates/email/welcome/subject.txt:1
 #: templates/email/welcome_respondable/subject.txt:1
 #, python-format
 msgid "Welcome to %(site_name)s"
-msgstr "欢迎 %(site_name)s"
+msgstr "欢迎%(site_name)s"
 
 #: templates/email/welcome_respondable/body.html:3
 #: templates/email/welcome_respondable/body.html:4
@@ -6782,19 +6782,19 @@ msgstr ""
 #: templates/embed/list_widgets.html:5
 #, python-format
 msgid "%(type)s widget list"
-msgstr ""
+msgstr "%(type)s小工具列表"
 
 #: templates/embed/list_widgets.html:8
 msgid "Widget Title"
-msgstr ""
+msgstr "小工具标题"
 
 #: templates/embed/list_widgets.html:9
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: templates/embed/list_widgets.html:10
 msgid "Actions"
-msgstr ""
+msgstr "动作"
 
 #: templates/embed/list_widgets.html:23 templates/embed/list_widgets.html:34
 #: templates/tags/list_bulk_tag_subscription.html:49 views/commands.py:558
@@ -7562,18 +7562,18 @@ msgstr ""
 
 #: templates/user_profile/user_info.html:36
 msgid "unfollow"
-msgstr ""
+msgstr "未关注"
 
 #: templates/user_profile/user_info.html:37
 #: templates/user_profile/user_info.html:40
 #: templates/user_profile/user_info.html:46
 msgid "follow"
-msgstr ""
+msgstr "关注"
 
 #: templates/user_profile/user_info.html:39
 #: templates/user_profile/user_info.html:44
 msgid "following"
-msgstr ""
+msgstr "已关注"
 
 #: templates/user_profile/user_info.html:57
 msgid "update profile"
@@ -7635,7 +7635,7 @@ msgstr "剩余投票数"
 #: templates/user_profile/user_languages.html:3
 #: templates/user_profile/user_tabs.html:18
 msgid "languages"
-msgstr ""
+msgstr "语言"
 
 #: templates/user_profile/user_languages.html:12
 msgid "View and subscribe to posts in these languages"
